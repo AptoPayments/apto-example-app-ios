@@ -1,8 +1,12 @@
 import UIKit
+import AptoSDK
+import AptoUISDK
 
 final class ViewController: UIViewController {
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
+ 
+  @IBAction func didTapOnAction(_ sender: UIButton) {
+    AptoPlatform
+      .defaultManager()
+      .startCardFlow(from: self, mode: .standalone) { _ in }
   }
 }
