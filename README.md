@@ -4,7 +4,7 @@ This app demonstrates integrating with the Apto UI SDK using it's prebuild UI sc
 
 With this app, you'll be able to onboard new users, issue cards, obtain card activity information and manage the card (set pin, freeze / unfreeze, etc.)
 
-For more information, see the [Apto developer portal](https://aptopayments.com/developer).
+For more information, see the [Apto developer portal](https://aptopayments.com/#/developers).
 
 ## Requirements
 
@@ -19,5 +19,5 @@ For more information, see the [Apto developer portal](https://aptopayments.com/d
 - Clone the `apto-example-app-ios` repository.
 - Execute `pod install` command into the local repository path to download project dependencies.
 - Open the project in Xcode.
-- Go to `Example/AppDelegate.swift` and update the api key with the one in [Apto developer portal](https://aptopayments.com/developer) 
+- Go to `Example/AppDelegate.swift` and update the api key with the one in [Apto developer portal](https://aptopayments.com/#/developers) 
 - Execute the app and follow the application flow 
